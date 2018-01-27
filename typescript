@@ -69,4 +69,125 @@ Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 1
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/Practice-org-lab/book-list-server.git
  * [new branch]      master -> master
-[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab]1;..ctice-org-lab[0m[27m[24m[J[01;32m➜  [36mpractice-org-lab[00m [K[?1h=[?2004hbbook-list-
+[J[1;31mbook-list-client[0m/  [J[1;31mbook-list-server[0m/[J[A[0m[27m[24m[20Cbook-list-[Kclient[1m/[0m
+[J[7mbook-list-client/[0m  [J[1;31mbook-list-server[0m/[J[A[0m[27m[24m[20Cbook-list-client[1m/[0m[K
+[7mbook-list-client/[0m  [7mbook-list-client/[0m  [A[0m[27m[24m[20Cbook-list-client[1m/[0m[K
+[J[A[37C[0m [?1l>[?2004l
+[J]2;book-list-client]1;book-list-client[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-client]1;..k-list-client[0m[27m[24m[J[01;32m➜  [36mbook-list-client[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-client]1;..k-list-client[0m[27m[24m[J[01;32m➜  [36mbook-list-client[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "adding new files"[?1l>[?2004l
+]2;git commit -m "adding new files"]1;git[master (root-commit) e47a5f6] adding new files
+ 24 files changed, 72 insertions(+)
+ create mode 100644 .eslintrc.json
+ create mode 100644 .gitignore
+ create mode 100644 data/books.json
+ create mode 100644 index.html
+ create mode 100644 readme.md
+ create mode 100644 scripts/models/book.js
+ create mode 100644 scripts/views/book-view.js
+ create mode 100644 scripts/views/error-view.js
+ create mode 100644 scripts/views/routes.js
+ create mode 100644 styles/base.css
+ create mode 100644 styles/fonts/icomoon.eot
+ create mode 100644 styles/fonts/icomoon.svg
+ create mode 100644 styles/fonts/icomoon.ttf
+ create mode 100644 styles/fonts/icomoon.woff
+ create mode 100644 styles/icons.css
+ create mode 100644 styles/layout.css
+ create mode 100644 styles/modules/book-main.css
+ create mode 100644 styles/modules/detail-main.css
+ create mode 100644 styles/modules/error.css
+ create mode 100644 styles/modules/footer.css
+ create mode 100644 styles/modules/form-main.css
+ create mode 100644 styles/modules/header.css
+ create mode 100644 styles/reset.css
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-client]1;..k-list-client[0m[27m[24m[J[01;32m➜  [36mbook-list-client[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit push origin master[?1l>[?2004l
+]2;git push origin master]1;gitCounting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 2.41 KiB | 2.41 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/Practice-org-lab/book-list-client.git
+ * [new branch]      master -> master
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-client]1;..k-list-client[0m[27m[24m[J[01;32m➜  [36mbook-list-client[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hccode .[?1l>[?2004l
+]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-client]1;..k-list-client[0m[27m[24m[J[01;32m➜  [36mbook-list-client[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab]1;..ctice-org-lab[0m[27m[24m[J[01;32m➜  [36mpractice-org-lab[00m [K[?1h=[?2004hccode .[?1l>[?2004l
+]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab]1;..ctice-org-lab[0m[27m[24m[J[01;32m➜  [36mpractice-org-lab[00m [K[?1h=[?2004hbboo
+[J[0mBootCacheControl   [J[1;31mbook-list-client[0m/  [J[1;31mbook-list-server[0m/[J[A[0m[27m[24m[20Cboo[KB[2CtCacheControl
+[J[7mBootCacheControl [0m  [J[1;31mbook-list-client[0m/  [J[1;31mbook-list-server[0m/[J[A[0m[27m[24m[20CBootCacheControl[K
+[7mBootCacheControl [0m  [7mBootCacheControl [0m  [A[0m[27m[24m[20CBootCacheControl[K[16Db[2Ck-list-client[1m/[0m
+[19C[7mbook-list-client/[0m  BootCacheControl   [A[0m[27m[24m[20Cbook-list-client[1m/[0m[Kserver[1C
+[38C[7mbook-list-server/[0m[19C[1;31mbook-list-client[0m/  [A[0m[27m[24m[20Cbook-list-server[1m/[0m[K
+[J[A[37C[0m [?1l>[?2004l
+[J]2;book-list-server]1;book-list-server[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnnpm i y[?1l>[?2004l
+]2;npm i y]1;npm[?25l⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 45ceb1639870f17[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠧ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extract:y: [34;40mverb[0m [35mlock[0m using /Users/genepieterson/.npm/_lo[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35msaveError[0m ENOENT: no such file or directory, open '/Users/genepieterson/practice-org-lab/book-list-server/package.json'
+[0m[?25l⸨[7m            [27m[90m░░░░░░[0m⸩ ⠸ postinstall: [30;43mWARN[0m [35msaveError[0m ENOENT: no such file or dire[0m[K[K[?25h[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m created a lockfile as package-lock.json. You should commit this file.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m ENOENT: no such file or directory, open '/Users/genepieterson/practice-org-lab/book-list-server/package.json'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m book-list-server No description
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m book-list-server No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m book-list-server No README data
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m book-list-server No license field.
+[0m
++ y@0.3.2
+added 1 package in 1.357s
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsREADME.md         [1m[36mnode_modules[39;49m[0m      package-lock.json server.js
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls -a[?1l>[?2004l
+]2;ls -G -a]1;ls[1m[36m.[39;49m[0m                 [1m[36m.git[39;49m[0m              [1m[36mnode_modules[39;49m[0m
+[1m[36m..[39;49m[0m                .gitignore        package-lock.json
+.eslintrc.json    README.md         server.js
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h..git  .  ccode .[?1l>[?2004l
+]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsREADME.md         [1m[36mnode_modules[39;49m[0m      package-lock.json server.js
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m "adding server requirements"[?1l>[?2004l
+]2;git commit -m "adding server requirements"]1;git[master e0b0709] adding server requirements
+ 3 files changed, 29 insertions(+)
+ create mode 100644 package-lock.json
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hggit push origin master[?1l>[?2004l
+]2;git push origin master]1;gitCounting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 805 bytes | 805.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/Practice-org-lab/book-list-server.git
+   62be262..e0b0709  master -> master
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/practice-org-lab/book-list-server]1;..k-list-server[0m[27m[24m[J[01;32m➜  [36mbook-list-server[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hccd[?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hc ccodefellows[1m/[0m[0m/
+[1;31m201[0m/                [1;31mexamples[0m/           [1;31mseattle-201d29[0m/                       
+[J[1;31m301[0m/                [J[1;31mpractice-projects[0m/  [J                                    [A[A[0m[27m[24m[5Ccodefellows/[K201[1m/[0m
+[7m201/              [0m  [1;31mexamples[0m/           [1;31mseattle-201d29[0m/                       [K
+[J[1;31m301[0m/                [J[1;31mpractice-projects[0m/  [J                                    [A[A[0m[27m[24m[5Ccodefellows/201[1m/[0m[K
+[7m201/              [0m  [7m201/              [0m  [A[0m[27m[24m[5Ccodefellows/201[1m/[0m[K3[3C
+[1;31m201[0m/                [1B[7m301/              [0m  [A[A[0m[27m[24m[5Ccodefellows/301[1m/[0m[K
+[J[A[21C[0m/
+[J[1;31m01-mobile-first[0m/            [1;31mclass-demo[0m/               
+[1;31m02-jquery-and-the-dom[0m/      [1;31mcodeWARS[0m/                 
+[1;31m03-jquery-events[0m/           [1;31mmg-book-ap[0m/               
+[1;31m04-html-templating[0m/         [1;31mnew-02[0m/                   
+[1;31m06-AJAX-HTTP-JSON[0m/          [1;31mnew-04[0m/                   
+[1;31m07-nodejs-npm-express[0m/      [1;31mnew-new-04[0m/               
+[1;31m08-intro-to-sql-postgres[0m/   [1;31mrwd-demo[0m/                 
+[1;31m09-functional-programming[0m/  [1;31mseattle-301d29[0m/           
+[1;31m10-production-deployment[0m/   [1;31mserver-practice[0m/          
+[1;31m301-journals[0m/               [1;31mui-challenge-1[0m/           
+[J[1;31m301-lab-05[0m/                 [J                          [11A[0m[27m[24m[5Ccodefellows/301/[KcodeWARS[1m/[0m[0m [?1l>[?2004l
+[J]2;codefellows/301/codeWARS]1;codefellows/301/codeWARS[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS]1;../301/codeWARS[0m[27m[24m[J[01;32m➜  [36mcodeWARS[00m [01;34mgit:([31mnew-stuff[34m)[00m [K[?1h=[?2004httouc  t  lls l  mmkdir list-filtering[?1l>[?2004l
+]2;mkdir list-filtering]1;mkdir[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS]1;../301/codeWARS[0m[27m[24m[J[01;32m➜  [36mcodeWARS[00m [01;34mgit:([31mnew-stuff[34m)[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mabbreviate-two-word[39;49m[0m [1m[36mformat-words[39;49m[0m        [1m[36mlist-filtering[39;49m[0m      [1m[36musername-regex[39;49m[0m
+[1m[36mdiemvowel-trolls[39;49m[0m    [1m[36mhead-wrong-end[39;49m[0m      [1m[36mniceArray[39;49m[0m
+[1m[36mdouble-array[39;49m[0m        [1m[36minsertDash[39;49m[0m          [1m[36mreplace-the-dots[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS]1;../301/codeWARS[0m[27m[24m[J[01;32m➜  [36mcodeWARS[00m [01;34mgit:([31mnew-stuff[34m)[00m [K[?1h=[?2004hllisT
+[J[0mLISTMAX          [J[1;31mlist-filtering[0m/[J[A[0m[27m[24m[28ClisT[KLISTMAX[1m=[0m
+[J[7mLISTMAX        [0m  [J[1;31mlist-filtering[0m/[J[A[0m[27m[24m[28CLISTMAX[1m=[0m[K
+[7mLISTMAX        [0m  [7mLISTMAX        [0m  [A[0m[27m[24m[28CLISTMAX[1m=[0m[K[8Dlist-fi[0mltering[1m/[0m
+[17C[7mlist-filtering/[0mLISTMAX          [A[0m[27m[24m[28Clist-filtering[1m/[0m[K
+[J[A[43C[0m [?1l>[?2004l
+[J]2;list-filtering]1;list-filtering[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS/list-filtering]1;..ist-filtering[0m[27m[24m[J[01;32m➜  [36mlist-filtering[00m [01;34mgit:([31mnew-stuff[34m)[00m [K[?1h=[?2004httouch sou lutions.js[?1l>[?2004l
+]2;touch solutions.js]1;touch[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS/list-filtering]1;..ist-filtering[0m[27m[24m[J[01;32m➜  [36mlist-filtering[00m [01;34mgit:([31mnew-stuff[34m) [33m✗[00m [K[?1h=[?2004hccode .[?1l>[?2004l
+]2;code .]1;code[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS/list-filtering]1;..ist-filtering[0m[27m[24m[J[01;32m➜  [36mlist-filtering[00m [01;34mgit:([31mnew-stuff[34m) [33m✗[00m [K[?1h=[?2004hg ccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS]1;../301/codeWARS[0m[27m[24m[J[01;32m➜  [36mcodeWARS[00m [01;34mgit:([31mnew-stuff[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]2;genepieterson@Genes-MacBook-Pro: ~/codefellows/301/codeWARS]1;../301/codeWARS[0m[27m[24m[J[01;32m➜  [36mcodeWARS[00m [01;34mgit:([31mnew-stuff[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m " 
